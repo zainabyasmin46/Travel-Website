@@ -467,3 +467,153 @@ h1, h2, h3{
     cursor: pointer;
 
 }
+
+/* ############## Media Queries ###################### */
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+
+    .navbar .nav-items, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-content .main-heading{
+        display: none;
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+
+    }
+
+    .row .img-box,
+    .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box-2, 
+    .features .box-3{
+        margin-top: 7rem;
+        box-shadow: 5px 5px 20px 0px #3634349e;
+    }
+
+    .box-wrapper{
+        box-shadow: none;
+    } 
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+
+    .navbar .nav-items, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+
+    }
+
+    .row .img-box,
+    .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box-2, 
+    .features .box-3{
+        margin-top: 7rem;
+        box-shadow: 5px 5px 20px 0px #3634349e;
+    }
+
+    .box-wrapper{
+        box-shadow: none;
+    } 
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+    html{
+        font-size: 56.25%;
+
+    }
+
+    .row .text-box h2{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+}
+
+@media(orientation: landscape) and (max-height: 500px){
+    .header{
+        height: 90vmax;
+    }
+}
+
